@@ -1,0 +1,50 @@
+Array.push() : Adding Element at the end of an Array. As array in JavaScript are mutable object, we can easily add or remove elements from the Array. And it dynamically changes as we modify the elements from the array.
+Syntax :
+Array.push(item1, item2 …)
+Parameters: Items to be added to an array.
+Array.unshift() : Adding elements at the front of an Array
+Syntax :
+Array.unshift(item1, item2 …)
+Parameters: Items to be added to the array
+Array.pop() : Removing elements from the end of an array
+Syntax:
+Array.pop()
+Parameters: It takes no parameter
+Array.shift() : Removing elements at the beginning of an array
+Syntax :
+Array.shift()
+Parameter : it takes no parameter
+Array.splice() : Insertion and Removal in between an Array
+Syntax:
+Array.splice (start, deleteCount, item 1, item 2….) 
+Parameters:  
+Start : Location at which to perform operation
+deleteCount: Number of element to be deleted, 
+if no element is to be deleted pass 0.
+Item1, item2 …..- this is an optional parameter . 
+These are the elements to be inserted from location start 
+The length property returns the length of a string:
+
+Example
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var sln = txt.length;
+The indexOf() method returns the index of (the position of) the first occurrence of a specified text in a string:
+
+Example
+var str = "Please locate where 'locate' occurs!";
+var pos = str.indexOf("locate");
+The lastIndexOf() method returns the index of the last occurrence of a specified text in a string:
+
+Example
+var str = "Please locate where 'locate' occurs!";
+var pos = str.lastIndexOf("locate");
+Both indexOf(), and lastIndexOf() return -1 if the text is not found.
+
+Example
+var str = "Please locate where 'locate' occurs!";
+var pos = str.lastIndexOf("John");
+The search() method searches a string for a specified value and returns the position of the match:
+
+Example
+var str = "Please locate where 'locate' occurs!";
+var pos = str.search("locate");
